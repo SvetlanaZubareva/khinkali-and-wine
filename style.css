@@ -36,6 +36,10 @@
     padding-left: 5%;
     padding-right: 5%;
   }
+  html, body {
+    /* Убирает прокрутку по горизонтале, для мобильной версии */
+    overflow-x: hidden;
+}
   button,
   a{
    cursor: pointer;
