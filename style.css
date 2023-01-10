@@ -1,0 +1,64 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  @font-face {
+   font-family: "sunday";
+   font-style: normal;
+   font-weight: 400;
+   src: url("./fonts/sunday.woff2") format("woff2");
+   font-display: swap;
+ }
+  
+  html {
+    height: 100%;
+    overflow-x: hidden;
+  }
+  
+  body {
+    min-height: 100%;
+    font-family: "sunday";
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #0B101B;
+    background-color: #ffff;
+    min-width: 375px;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+  button,
+  a{
+   cursor: pointer;
+   text-decoration: none;
+   color: black;
+  }
+  p,
+  h2{
+    margin: 0;
+  }
+  li{
+    list-style: none;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .header{
+    padding: 30px 5% 20px;
+  }
+  .header__ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header__a:hover{
+    color: rgb(245, 150, 7);
+  }
