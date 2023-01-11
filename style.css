@@ -81,7 +81,11 @@
   .header__a:hover{
     color: rgb(245, 150, 7);
   }
+  .regulations__main{
+    padding: 0 5% 0;
+  }
   .regulations__h2{
+    margin-top: 250px;
     margin-bottom: 30px;
   }
   .regulations__p{
