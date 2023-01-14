@@ -66,6 +66,7 @@
     width: 100%;
     background: #fff;
     border-bottom: 10px solid rgb(245, 150, 7);
+    z-index: 999;
   }
   .header__ul{
     display: flex;
@@ -135,6 +136,21 @@
     color: rgb(245, 150, 7);
     font-size: 100px;
     margin-bottom: 200px;
+    
+  }
+  @keyframes myAnim {
+    0% {
+      opacity: 0;
+      transform: scale(0.6);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  .square-animation{
+    animation: myAnim 1s ease 0s 1 normal forwards;
   }
   .section-minu__img{
     border: 10px solid rgb(245, 150, 7);
@@ -264,3 +280,8 @@
   justify-content: space-between;
   align-items: center;
 }
+
+
+
+
+
