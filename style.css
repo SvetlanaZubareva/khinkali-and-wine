@@ -138,6 +138,7 @@
     margin-bottom: 200px;
     
   }
+  /*Добавляю анимацию*/
   @keyframes myAnim {
     0% {
       opacity: 0;
